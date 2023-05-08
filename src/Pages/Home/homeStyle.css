@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+
+.head_panner {
+  background-color: #fe8a00;
+  display: flex;
+  position: relative;
+  margin-top:20px ;
+}
+.head_ic{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.panner_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "outfit";
+  text-align: center;
+  font-size: 40px;
+}
+.prod_sec{
+    margin-top:40px;
+    font-family: "outfit";
+  }
+  .prod_sec> h2{
+  text-align: center;
+  padding-bottom:30px ;
+}
+
+/* card design  */
+.card{
+  height: 400px;
+  border:none;
+  border-radius: 16px;
+  margin-bottom:50px;
+  position: relative;
+}
+.card:hover{
+  transform: scale(1.1);
+  transition:.8s ease;
+}
+.card_tit{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.right{
+  float: right;
+}
+.card>p{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #00000080;
+}
+
+.img_card{
+  border-radius: 16px;
+  max-width: 320px;
+  min-height: 320px;
+}
+
+.heart_btn{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:15px;
+  right: 15px;
+  z-index: 2;
+}
+
+/* see more link styling */
+.products_link{
+  text-align: center;
+  text-decoration: none;
+  color:#F61B5A;
+  padding-bottom: 100px;
+  font-size: 20px;
+}
+.products_link:hover{
+  color:#F61B5A;
+}

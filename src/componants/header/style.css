@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+header{
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    padding-top:21px;
+    
+}
+
+.logo_items{
+    padding-left: 30px;
+}
+header>span{
+    font-family: 'outfit';
+    font-size: 32px;
+    color:#FE8A00;
+}
+.colored_head{
+    color: #F61B5A;
+}
+.to_right{
+    margin-left: auto;
+    padding-right: 15px;
+}
