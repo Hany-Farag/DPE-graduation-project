@@ -52,8 +52,10 @@ const Home = () => {
                                     }}>
                                         <img src="header_imgs/favorite-svgrepo-com.svg" className="heart_btn" alt="AddToCard" />
                                     </a>
+                                    {/* when I put link to img it make differint in style  */}
+                                    {/* <Link to={`/show/${product.id}`}><img src={product.thumbnail} className="img-fluid img_card" alt="product img" /></Link> */}
+                                   <img src={product.thumbnail} className="img-fluid img_card" alt="product img" />
 
-                                    <Link to={`/show/${product.id}`}><img src={product.thumbnail} className="img-fluid img_card" alt="product img" /></Link>
                                     <div className="card_tit">
                                         <span>{product.title} </span>
                                         <span className="right">{product.price}$</span>
